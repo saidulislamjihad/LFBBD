@@ -37,6 +37,26 @@ body {
     max-width: 1700px;
 }
 
+.section-top-title {
+    position: relative;
+    display: inline-block;
+    color: #ff7e16;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Kanit', sans-serif;
+    text-transform: capitalize;
+}
+
+.section-top-title:after {
+    content: '';
+    position: absolute;
+    width: 65px;
+    height: 1px;
+    background: #ff7e16;
+    top: 50%;
+    margin-left: 15px;
+}
+
 /*common css End*/
 
 /*Top Header section css start*/
@@ -418,25 +438,6 @@ body {
 
 .about-sec-left {
     text-align: center;
-}
-
-.section-top-title {
-    position: relative;
-    color: #ff7e16;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Kanit', sans-serif;
-    text-transform: capitalize;
-}
-
-.section-top-title:after {
-    content: '';
-    position: absolute;
-    width: 65px;
-    height: 1px;
-    background: #ff7e16;
-    top: 50%;
-    left: 15%;
 }
 
 .about-sec-right .title {
