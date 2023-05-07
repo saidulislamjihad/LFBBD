@@ -37,7 +37,7 @@ body {
     max-width: 1700px;
 }
 
-.section-top-title {
+.section-title-wrap .top-title {
     position: relative;
     display: inline-block;
     color: #ff7e16;
@@ -47,7 +47,24 @@ body {
     text-transform: capitalize;
 }
 
-.section-top-title:after {
+.section-title-wrap .title {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    color: #0C0A06;
+    margin-bottom: 15px;
+}
+
+.section-title-wrap .text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #595959;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 25px;
+}
+
+.section-title-wrap .top-title:after {
     content: '';
     position: absolute;
     width: 65px;
@@ -440,23 +457,6 @@ body {
     text-align: center;
 }
 
-.about-sec-right .title {
-    font-size: 40px;
-    font-weight: 600;
-    font-family: 'Kanit', sans-serif;
-    color: #0C0A06;
-    margin-bottom: 15px;
-}
-
-.about-sec-right .description {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    color: #595959;
-    font-family: 'DM Sans', sans-serif;
-    margin-bottom: 25px;
-}
-
 .about-point-wrap {
     display: flex;
     align-items: center;
@@ -530,7 +530,408 @@ body {
 }
 /*About section css End*/
 
+/*Data Provide section css start*/
+.data-provide-section {
+    background: #FAF7EF;
+    padding: 50px 0;
+}
 
+.explore-more-btn-link {
+    display: inline-block;
+    background: #ff7e16;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    border-radius: 5px;
+}
+/*Data Provide section css end*/
+
+/*Speciality section css start*/
+.speciality-section {
+    padding: 50px 0;
+}
+
+.section-title-wrap.mx-width-speciality {
+    max-width: 850px;
+    width: 100%;
+}
+
+.speciality-item-outer {
+    background: #F3F3F3;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.speciality-item-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.speciality-item-top i {
+    font-size: 30px;
+    color: #FF7E16;
+    transition: all .3s ease;
+}
+
+.speciality-item-top .item-number {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    color: #E1E1E1;
+    transition: all .3s ease;
+}
+
+.speciality-item-title {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #0C0A06;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.speciality-list {
+    margin-bottom: 25px;
+    background: #FAFAFA;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.speciality-list-item {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    color: #595959;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
+
+.speciality-item-outer .get-started-link {
+    display: block;
+    background: #f4e5d8;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF7E16;
+    border-radius: 5px;
+    font-family: 'Kanit', sans-serif;
+    transition: all .3s ease;
+}
+
+.speciality-item-outer:hover {
+    background: #0C0A06;
+}
+
+.speciality-item-outer:hover .speciality-item-top i {
+    color: #fff;
+}
+
+.speciality-item-outer:hover .speciality-item-top .item-number {
+    color: #1D1717;
+}
+
+.speciality-item-outer:hover .speciality-item-title {
+    color: #fff;
+}
+
+.speciality-item-outer:hover .speciality-list {
+    background: #151413;
+}
+
+.speciality-item-outer:hover .speciality-list-item {
+    color: #fff;
+}
+
+.speciality-item-outer:hover .get-started-link {
+    background: #FF7E16;
+    color: #fff;
+}
+
+.customer-section {
+    padding: 50px 0;
+}
+
+.section-title-wrap .top-title.separate-color {
+    color: #160803;
+}
+
+.customer-items-wrap {
+    margin-top: 40px;
+    position: relative;
+}
+
+.customer-item-outer {
+    display: inline-block;
+}
+
+.customer-item-outer img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.customer-items-wrap .owl-nav {
+    position: absolute;
+    top: -80px;
+    right: 0;
+}
+
+.customer-items-wrap .owl-nav .owl-prev {
+    margin-right: 30px;
+}
+
+.customer-items-wrap .owl-nav .owl-next span {
+    font-size: 35px;
+    transition: all .3s ease;
+}
+
+.customer-items-wrap .owl-nav .owl-prev span {
+    font-size: 35px;
+    transition: all .3s ease;
+}
+
+.customer-items-wrap .owl-nav .owl-next span:hover{
+    color: #ff7e16;
+}
+
+.customer-items-wrap .owl-nav .owl-prev span:hover{
+    color: #ff7e16;
+}
+/*Speciality section css End*/
+
+/*Choose section cssn start*/
+.choose-section {
+    padding: 50px 0;
+}
+
+.choose-item-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choose-item-left {
+    margin-right: 20px;
+}
+
+.choose-item-right .title {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #0C0A06;
+    margin-bottom: auto;
+}
+
+.choose-item-right .text {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.choose-item-left img {
+    width: 100%;
+    max-width: 60px;
+}
+
+.choose-sec-right img {
+    width: 100%;
+    max-width: 620px;
+}
+
+.choose-sec-right {
+    text-align: center;
+}
+/*Choose section cssn End*/
+
+/*Secure data section css start*/
+.secure-data-section {
+    padding: 50px 0;
+}
+
+.section-title-wrap.mx-width-secure-data {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.secure-data-image {
+    margin-top: 30px;
+    width: 100%;
+}
+/*Secure data section css End*/
+
+/*Contact section css start*/
+.home-contact-section {
+    padding: 50px 0;
+}
+
+.contact-text-wrap {
+    position: relative;
+    z-index: 0;
+    background-image: url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.contact-text-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #0C0A06;
+    opacity: 0.69;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.contact-left .text {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    line-height: 30px;
+}
+
+.contact-left .title {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-left {
+    width: 100%;
+    max-width: 800px;
+}
+
+.contact-right {
+    text-align: right;
+}
+
+.contact-us-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    background: #FF7E16;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+/*Contact section css End*/
+
+/*Testimonial section css start*/
+.trustpoint-section {
+    padding: 50px 0;
+}
+
+.testimonial-section {
+    padding: 50px 0;
+    background: #FAF7EF;
+    position: relative;
+}
+
+.section-title-wrap.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.view-all-testimonial-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    background: #FF7E16;
+    padding: 12px 25px;
+    border-radius: 5px;
+}
+
+.testimonial-item-outer {
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.testimonial-author-outer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.testimonial-author-outer .author-image {
+    margin-right: 20px;
+}
+
+.testimonial-author-outer .author-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.testimonial-author-outer .author-info .author-name {
+    font-size: 22px;
+    font-weight: 500;
+    color: #061421;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 5px;
+}
+
+.testimonial-author-outer .author-info .description {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    color: #595959;
+    margin-bottom: 0;
+}
+
+.testimonial-rating-list {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.testimonial-rating-list-item i {
+    font-size: 14px;
+    color: #00B67A;
+}
+
+.testimonial-info .testimonial-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Kanit', sans-serif;
+}
+
+.testimonial-info .text {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    color: #595959;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+/*Testimonial section css End*/
 
 
 /*Footer section css start*/
