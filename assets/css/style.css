@@ -1289,6 +1289,18 @@ body {
 
 .gradien-box5 {
     position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #00C969;
+    border-radius: 50%;
+    filter: blur(201px);
+    bottom: 0;
+    left: 50%;
+    z-index: -1;
+}
+
+.gradien-box6 {
+    position: absolute;
     width: 240px;
     height: 240px;
     background: #FF7E16;
