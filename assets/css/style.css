@@ -1196,6 +1196,7 @@ body {
 /*Blog section css start*/
 .blog-section {
     padding: 50px 0;
+    background: #F8F8F8;
 }
 
 .blog-item-image-outer {
