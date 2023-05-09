@@ -27,6 +27,63 @@
 </head>
 <body>
 
+<!-- Sign Up Modal -->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+		    <div class="modal-body">		    	
+		        <div class="modal-form-wrapper">
+		        	<button type="button" class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close">
+		        		<i class="fas fa-times"></i>
+		        	</button>
+		        	<h1 class="form-title">
+		        		Please Sign Up 
+		        	</h1>
+		        	<form action="" method="" class="sign-up-form form-group">
+		        		<h6 class="form-item-top-label">
+		        			Email*
+		        		</h6>
+		        		<div class="input-field-wrapper">
+		                    <i class="far fa-envelope"></i>
+		                    <input type="email" class="form-control " name="email" placeholder="info@example.com">
+		                </div>
+		                <h6 class="form-item-top-label">
+		        			Password*
+		        		</h6>
+		        		<div class="input-field-wrapper">
+		                    <i class="fas fa-unlock-alt"></i>
+		                    <input type="password" class="form-control " name="password" placeholder="**** ****">
+		                </div>
+		                <button type="submit" class="contact-form-btn">
+		                	Sign Up Now
+		                </button>
+		        	</form>
+		        	<span class="login-link-text">
+		        		Already have an account?
+		        	</span>
+		        	<a href="#" class="login-link-inner">
+		        		Log in  
+		        	</a>
+		        	<div class="form-bottom-outer">
+		        		<span class="form-bottom-separator">
+		        			OR
+		        		</span>
+		        		<a href="#" class="sign-up-other-link">
+		        			<img src="assets/images/google.png" alt="Google">
+		        			Sign Up with Google
+		        		</a>
+		        		<a href="#" class="sign-up-other-link">
+		        			<img src="assets/images/microsoft.png" alt="Google">
+		        			Sign Up with Microsoft
+		        		</a>
+		        	</div>
+		        </div>
+		    </div>
+	    </div>
+	</div>
+ </div>
+<!-- Sign Up Modal -->
+
 <header class="header-section">
 	<div class="header-top-wrapper">
 		<div class="container">
@@ -179,8 +236,8 @@
 					</div>
 					<ul class="nav-item-submenu">
 					    <li class="submenu-item">
-					        <a href="#" class="submenu-item-link">
-					            About Company Profile
+					        <a data-bs-toggle="modal" href="#exampleModalToggle" class="submenu-item-link">
+					            Sign Up
 					        </a>
 					    </li>
 					    <li class="submenu-item">

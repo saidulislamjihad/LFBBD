@@ -2022,3 +2022,103 @@ body {
     color: #FF7E16;
 }
 /*Industry page css End*/
+
+/*Login Modal css start*/
+.modal-form-wrapper {
+    position: relative;
+    padding: 35px 25px;
+}
+
+.modal-form-wrapper .modal-close-btn {
+    position: absolute;
+    right: -30px;
+    top: -30px;
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #FF7E16;
+}
+
+.modal-form-wrapper .modal-close-btn i {
+    color: #0C0A06;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.modal-form-wrapper .form-title {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #FF7E16;
+    margin-bottom: 30px;
+}
+
+.sign-up-form {
+    margin-bottom: 20px;
+}
+
+.sign-up-form .form-item-top-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0C0A06;
+    font-family: 'Kanit';
+    margin-bottom: 10px;
+}
+
+.sign-up-form .input-field-wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.sign-up-form .input-field-wrapper i {
+    position: absolute;
+    line-height: 50px;
+    color: #FF7E16;
+    left: 15px;
+}
+
+.sign-up-form .input-field-wrapper input {
+    height: 100%;
+    width: 100%;
+    padding-left: 39px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    outline: none;
+    border: none;
+    color: #595959;
+    background: #F8F8F8;
+    border-radius: 5px;
+    line-height: 40px;
+    border: 1px solid #EEEEEE;
+}
+
+.sign-up-form .input-field-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.sign-up-form .contact-form-btn {
+    margin-top: 0;
+}
+
+.login-link-text {
+    font-size: 17px;
+    font-weight: 500;
+    color: #0C0A06;
+    font-family: 'DM Sans';
+    margin-right: 10px;
+}
+
+.login-link-inner {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #FF7E16;
+    display: inline-block;
+}
+/*Login Modal css End*/
