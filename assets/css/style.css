@@ -366,6 +366,9 @@ body {
     font-size: 20px;
     font-weight: 400;
     position: relative;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 25px;
+    display: inline-block;
 }
 
 .home-sec-left {
@@ -421,8 +424,7 @@ body {
     width: 70px;
     height: 1px;
     top: 50%;
-    left: 45%;
-    transform: translate(-50% , -50%);
+    margin-left: 15px;
 }
 
 .home-partner-list-item {
@@ -1500,3 +1502,523 @@ body {
 }
 /*Footer section css End*/
 
+
+
+
+/*About page css start*/
+
+/*Banner section css start*/
+.banner-section {
+    position: relative;
+    padding: 100px 0;
+    background: #FAF7EF;
+    overflow: hidden;
+}
+
+.banner-section .gradien-box {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #FF7E16;
+    filter: blur(50px);
+    top: -30px;
+    left: -30px;
+    z-index: 99;
+    border-radius: 50%;
+}
+
+.banner-section .gradien-box1 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #FF7E16;
+    filter: blur(50px);
+    bottom: -30px;
+    right: -30px;
+    z-index: 99;
+    border-radius: 50%;
+}
+
+.banner-section .banner-info {
+    text-align: center;
+}
+
+.banner-section .banner-info .title {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #0C0A06;
+}
+
+.banner-section .banner-info .banner-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.banner-section .banner-info .banner-item li.active {
+    margin-left: 20px;
+    position: relative;
+    padding-left: 5px;
+}
+
+.banner-section .banner-info .banner-item li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0C0A06;
+    font-family: 'DM Sans';
+}
+
+.banner-section .banner-info .banner-item li.active:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #FF7E16;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+    border-radius: 50%;
+}
+
+.banner-section .banner-info .banner-item li.active a {
+    color: #FF7E16;
+}
+/*Banner section css End*/
+
+/*About section css start*/
+.about-our-mission-wrap {
+    padding: 25px 0;
+    border-top: 1px solid #0a080575;
+}
+
+.about-our-mission-outer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-our-mission-info {
+    margin-left: 20px;
+}
+
+.about-our-mission-outer i {
+    font-size: 40px;
+    color: #FF7E16;
+    margin-top: 5px;
+}
+
+.about-our-mission-info .title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #000;
+}
+
+.about-our-mission-info .text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #595959;
+    margin-bottom: 0;
+}
+/*About section css End*/
+
+/*About page css End*/
+
+/*B2B page css start*/
+
+/*Home section css start*/
+.b2b-home-section {
+    position: relative;
+    padding: 80px 0 0;
+    background: #FAF7EF;
+    z-index: 0;
+}
+
+.b2b-home-section .gradien-box {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #FF7E16;
+    filter: blur(50px);
+    top: 60px;
+    left: -30px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.b2b-home-section .gradien-box1 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #FF7E16;
+    filter: blur(50px);
+    bottom: 160px;
+    right: -30px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.b2b-home-sec-right {
+    position: relative;
+    bottom: -75px;
+}
+
+.b2b-home-user-info {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 360px;
+}
+
+.b2b-home-main-info {
+    width: 100%;
+    max-width: 805px;
+}
+
+.b2b-home-sec-left .title {
+    font-size: 45px;
+    color: #0C0A06;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 25px;
+}
+
+.b2b-home-sec-left .sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #595959;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.b2b-home-sec-left .form-free-trial {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.b2b-home-sec-left .form-free-trial input {
+    height: 60px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(235 166 111 / 30%);
+}
+
+.b2b-home-sec-left .form-free-trial .free-trial-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    border: 1px solid #FF7E16;
+    background: #FF7E16;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all .3s ease;
+}
+
+.b2b-home-sec-left .form-free-trial .free-trial-btn:hover {
+    background: transparent;
+    color: #FF7E16;
+}
+
+.b2b-home-sec-left .form-free-trial input:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 126 22 / 44%);
+}
+/*Home section css End*/
+
+/*B2B lead section css start*/
+.b2b-lead-section {
+    padding: 50px 0;
+}
+
+.b2b-lead-sec-left img {
+    width: 100%;
+    max-width: 750px;
+}
+
+.b2b-accuracy-rate-outer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-right: 2px solid #ff7e1696;
+}
+
+.b2b-accuracy-rate-outer i {
+    font-size: 35px;
+    color: #FF7E16;
+}
+
+.b2b-accuracy-rate-info {
+    margin-left: 15px;
+}
+
+.b2b-accuracy-rate-info .title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.b2b-accuracy-rate-info .text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #595959;
+    margin-bottom: 0;
+}
+
+.b2b-accuracy-rate-outer.nb {
+    border-right: none;
+}
+/*B2B lead section css End*/
+
+/*Industry bases section css start*/
+.industry-bases-section {
+    padding: 50px 0;
+}
+
+.industry-bases-sec-image img {
+    width: 100%;
+    max-width: 620px;
+}
+
+.industry-bases-sec-image {
+    text-align: center;
+}
+/*Industry bases section css End*/
+
+/*Faq section css start*/
+.faq-section {
+    padding: 50px 0;
+    background: #F8F8F8;
+}
+
+.faq-items-wrapper .accordion-button {
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    color: #160803;
+}
+
+.faq-items-wrapper .accordion-item {
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.faq-items-wrapper .accordion-body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #595959;
+}
+/*Faq section css End*/
+
+.b2b-home-partner-section {
+    padding: 30px 0;
+}
+/*B2B page css End*/
+
+/*Ecommerce page css start*/
+.ecommerce-table-section {
+    padding: 50px 0;
+}
+
+.counter-section {
+    padding: 50px 0;
+}
+
+.counter-item-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.counter-item-outer img {
+    width: 100%;
+    max-width: 55px;
+}
+
+.counter-item-info {
+    margin-left: 20px;
+}
+
+.counter-item-info .title {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    margin-bottom: 5px;
+}
+
+.counter-item-info .text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #595959;
+    margin-bottom: 0;
+}
+/*Ecommerce page css End*/
+
+/*Industry page css start*/
+.industry-leads-table-wrap {
+    position: relative;
+}
+
+.industry-leads-user-image {
+    position: absolute;
+    top: 95px;
+    width: 100%;
+    max-width: 300px;
+    right: 360px;
+}
+
+.contact-section {
+    padding: 60px 0;
+    background: #F8F8F8;
+}
+
+.contact-sec-left {
+    background: #fff;
+    border: 1px solid rgba(12, 10, 6, 0.08);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 620px;
+    margin: auto;
+    padding: 80px 40px;
+}
+
+.contact-sec-left .title {
+    font-size: 36px;
+    color: #0C0A06;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 25px;
+}
+
+.contact-item-wrap {
+    border-left: 4px solid #EEE;
+}
+
+.contact-item-outer {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    color: #595959;
+    margin-bottom: 20px;
+}
+
+.contact-item-outer i {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #FF7E16;
+}
+
+.contact-item-outer strong {
+    color: #000;
+    margin-right: 5px;
+}
+
+.contact-item-outer a {
+    color: #595959;
+}
+
+.contact-item-outer a:hover {
+    color: #FF7E16;
+}
+
+.contact-form .input-field-wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.contact-form .input-field-wrapper.textarea {
+    height: 150px;
+}
+
+
+.contact-form .input-field-wrapper i {
+    position: absolute;
+    line-height: 50px;
+    color: #FF7E16;
+    left: 15px;
+}
+
+.contact-form .input-field-wrapper input, .input-field-wrapper textarea {
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    outline: none;
+    border: none;
+    color: #595959;
+    background: #fff;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.contact-form .input-field-wrapper input:focus {
+    box-shadow: none;
+}
+
+.ageer-field-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ageer-field-wrapper input {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    background: #F5F3F1;
+    border: 1px solid #EEEEEE;
+    margin-top: 5px;
+}
+
+.ageer-field-wrapper label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #5E5E5E;
+}
+
+.contact-form-btn {
+    background: #FF7E16;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #FF7E16;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #F5F3F1;
+    margin-top: 20px;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+
+.contact-form-btn:hover {
+    background: transparent;
+    color: #FF7E16;
+}
+/*Industry page css End*/
