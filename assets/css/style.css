@@ -317,6 +317,9 @@ body {
 
 .header-bottom-wrapper {
     height: 70px;
+    background: #fff;
+    z-index: 9;
+    position: relative;
 }
 
 .header-my-account-item-wrap {
@@ -2026,7 +2029,7 @@ body {
 /*Login Modal css start*/
 .modal-form-wrapper {
     position: relative;
-    padding: 35px 25px;
+    padding: 15px;
 }
 
 .modal-form-wrapper .modal-close-btn {
@@ -2052,7 +2055,7 @@ body {
     font-weight: 500;
     font-family: 'Kanit';
     color: #FF7E16;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .sign-up-form {
@@ -2121,4 +2124,474 @@ body {
     color: #FF7E16;
     display: inline-block;
 }
+
+.login-link-inner:hover {
+    color: #000;
+}
+
+.form-bottom-separator {
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    position: relative;
+    color: #0C0A06;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+}
+
+.form-bottom-separator:after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 1px;
+    background: #EEEEEE;
+    top: 50%;
+    margin-left: 10px;
+}
+
+.form-bottom-separator:before {
+    content: '';
+    position: absolute;
+    width: 185px;
+    height: 1px;
+    background: #EEEEEE;
+    top: 50%;
+    left: 0;
+    margin-right: 10px;
+}
+
+.form-bottom-outer {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-other-link {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    background: #F8F8F8;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 126, 22, 0.3);
+}
+
+.sign-up-other-link img {
+    width: 14px;
+    margin-right: 10px;
+}
+
+.sign-up-other-link:last-child {
+    margin-right: 0;
+}
+
+.sign-up-other-link:hover {
+    background: #fffe;
+    border: 1px solid rgba(255, 126, 22, 0.3);
+    color: #ff7e16;
+}
+
+.forgot-remember-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.forgot-remember-outer .remember-outer input {
+    width: 12px;
+    border: 1px solid #FF7E16;
+}
+
+.forgot-remember-outer .remember-outer label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #595959;
+    font-family: 'DM Sans';
+}
+
+.forgot-password-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7607FF;
+    font-family: 'Kanit';
+}
+
+.forgot-password-link:hover {
+    color: #ff7e16;
+}
 /*Login Modal css End*/
+
+
+/*Recriutment page css start*/
+.recruitment-home-section {
+    padding: 60px 0 200px;
+    background: #FAF7EF;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 450px;
+}
+
+.recruitment-home-info .form-free-trial {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.recruitment-home-info .form-free-trial input {
+    height: 60px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(235 166 111 / 30%);
+}
+
+.recruitment-home-info .form-free-trial .free-trial-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    border: 1px solid #FF7E16;
+    background: #FF7E16;
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: all .3s ease;
+}
+
+.recruitment-home-info .form-free-trial .free-trial-btn:hover {
+    background: transparent;
+    color: #FF7E16;
+}
+
+.recruitment-home-info .form-free-trial input:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 126 22 / 44%);
+}
+
+.recruitment-home-bg {
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+    width: 100%;
+    max-width: 1800px;
+}
+
+.recruitment-home-info {
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+}
+
+.recruitment-home-section .gradien-box {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #FF7E16;
+    filter: blur(50px);
+    top: -30px;
+    left: -30px;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.recruitment-home-section .gradien-box1 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background: #FF7E16;
+    filter: blur(50px);
+    bottom: 70px;
+    right: -30px;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+.recruitment-table-image {
+    position: absolute;
+    z-index: 9;
+    top: 63%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.recruitment-table-image img {height: 597px;}
+
+.data-accuracy-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 4px;
+}
+
+.data-accuracy-label h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'DM Sans';
+    margin-bottom: 0;
+}
+
+.data-accuracy-label p {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'DM Sans';
+    color: #000;
+    margin-bottom: 0;
+}
+
+.data-accuracy-outer .progress {
+    height: 6px;
+}
+
+.data-accuracy-outer .progress .progress-bar {
+    background: #FF7E16;
+}
+/*Recriutment page css end*/
+
+/*Blog page css start*/
+.blog-section.page {
+    background: #fff;
+}
+
+.blog-item-post-date-outer {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background: #FF7E16;
+    padding: 12px 17px;
+    border-radius: 5px;
+}
+
+.blog-item-post-date-outer .date {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #fff;
+}
+
+.blog-item-post-date-outer .year {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.blog-item-outer {
+    margin-bottom: 40px;
+}
+
+.blog-item-outer:hover .blog-item-info-title {
+    color: #ff7e16;
+}
+
+.blog-item-info-text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 30px;
+    font-family: 'DM Sans';
+}
+
+.blog-explore-more-btn {
+    display: inline-block;
+    border: 1px solid #ff7e16;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #ff7e16;
+}
+
+.blog-explore-more-btn:hover {
+    background: #ff7e16;
+    color: #fff;
+}
+
+.search-form {
+    margin-bottom: 30px;
+}
+
+.search-form input {
+    background: #F8F4F1;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+}
+
+.search-form input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.category-items-wrapper,
+.recent-blog-items-wrap,
+.tag-items-wrapper,
+.blog-contact-form {
+    background: #F8F8F8;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.search-form .serch-btn {
+    border: 1px solid #FF7E16;
+    background: #FF7E16;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search-form .serch-btn i {
+    font-size: 14px;
+    color: #fff;
+}
+
+.blog-right-item-title {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.category-item-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.category-item-left,.category-item-right {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #0C0A06;
+    display: inline-block;
+    transition: all .3s ease;
+}
+
+.category-item-outer:hover .category-item-left,
+.category-item-outer:hover .category-item-right {
+    color: #FF7E16;
+}
+
+/*.recent-blog-items-wrap {
+    background: #F8F8F8;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+}*/
+
+.recent-blog-item-outer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.recent-blog-item-image img {
+    width: 80px;
+}
+
+.recent-blog-item-image {
+    margin-right: 10px;
+}
+
+.recent-blog-item-info-top {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #FF7E16;
+    margin-bottom: 5px;
+}
+
+.recent-blog-item-info-title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.recent-blog-item-outer:hover .recent-blog-item-info-title {
+    color: #FF7E16;
+}
+
+.tag-items-inner {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    padding-bottom: 6px;
+    color: #0C0A06;
+}
+
+.tag-items-inner:hover {
+    color: #FF7E16;
+}
+
+.blog-contact-form-label {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.blog-contact-form-input {
+    background: #FFEDDF;
+    margin-bottom: 15px;
+    height: 45px;
+    border: 1px solid #FFEDDF;
+    border-radius: 5px;
+}
+
+.blog-contact-form-input:focus,
+.blog-contact-form-textarea:focus {
+    box-shadow: none;
+    border: 1px solid #FFEDDF;
+}
+
+.blog-contact-form-textarea{
+    background: #FFEDDF;
+    margin-bottom: 15px;
+    border: 1px solid #FFEDDF;
+    border-radius: 5px;
+}
+
+.blog-contact-form-btn {
+    margin-top: 10px;
+    width: 100%;
+    background: #FF7E16;
+    padding: 15px 0;
+    border: 1px solid #FF7E16;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #fff;
+    transition: all .3s ease;
+}
+
+.blog-contact-form-btn:hover {
+    background: transparent;
+    color: #FF7E16;
+}
+/*Blog page css End*/
