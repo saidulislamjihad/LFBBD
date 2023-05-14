@@ -2784,6 +2784,11 @@ body {
     font-weight: 500;
     font-family: 'Kanit';
     color: #0C0A06;
+    display: block;
+}
+
+.product-image-outer .number-of-leads:hover {
+    color: #ff7e16;
 }
 
 .product-image-outer .product-discount-persent {
@@ -2842,7 +2847,7 @@ body {
     text-align: center;
 }
 
-.product-item-ratting {
+.product-info-outer .product-item-ratting {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2850,16 +2855,16 @@ body {
     margin-bottom: 5px;
 }
 
-.product-item-ratting li {
+.product-info-outer .product-item-ratting li {
     margin-right: 5px;
 }
 
-.product-item-ratting li i {
+.product-info-outer .product-item-ratting li i {
     font-size: 14px;
     color: #FF7E16;
 }
 
-.product-item-ratting li:last-child {
+.product-info-outer .product-item-ratting li:last-child {
     margin-right: 0;
 }
 
@@ -2901,6 +2906,29 @@ body {
 }
 
 .product-item-wrap:hover .product-price-outer .discount-price {
+    color: #ff7e16;
+}
+
+.product-load-btn-outer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.product-load-btn-inner {
+    display: inline-block;
+    background: #ff7e16;
+    padding: 10px 25px;
+    border: 1px solid #ff7e16;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.product-load-btn-inner:hover {
+    background: transparent;
     color: #ff7e16;
 }
 /*Shop page css End*/
