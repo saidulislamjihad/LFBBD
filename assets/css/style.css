@@ -2704,7 +2704,7 @@ body {
 /*Case study details page css End*/
 
 /*404 page css start*/
-section.error-section {
+.error-section {
     padding: 100px 0;
 }
 
@@ -2755,3 +2755,152 @@ section.error-section {
     color: #ff7e16;
 }
 /*404 page css End*/
+
+/*Shop page css start*/
+.product-image-outer {
+    background: #F8F8F8;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    padding: 25px 0;
+    margin-bottom: 15px;
+}
+
+.product-item-wrap {
+    margin-bottom: 30px;
+}
+
+.product-image-outer .product-image {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.product-section {
+    padding: 50px 0;
+}
+
+.product-image-outer .number-of-leads {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+}
+
+.product-image-outer .product-discount-persent {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #0C0A06;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+}
+
+.product-image-outer .product-action {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.product-image-outer .product-action .action-btn {
+    background: #fff;
+    margin-right: 16px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.product-action {}
+
+.product-image-outer .product-action .action-btn i {
+    font-size: 14px;
+    color: #0C0A06;
+    transition: all .3s ease;
+}
+
+.product-image-outer .product-action .action-btn:last-child {
+    margin-right: 0;
+}
+
+.product-image-outer .product-action .action-btn:hover {background: #0C0A06;color: #fff;}
+
+.product-image-outer .product-action .action-btn:hover i {
+    color: #fff;
+}
+
+.product-info-outer {
+    text-align: center;
+}
+
+.product-item-ratting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+
+.product-item-ratting li {
+    margin-right: 5px;
+}
+
+.product-item-ratting li i {
+    font-size: 14px;
+    color: #FF7E16;
+}
+
+.product-item-ratting li:last-child {
+    margin-right: 0;
+}
+
+.product-info-outer .product-name {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    transition: all .3s ease;
+}
+
+.product-price-outer .main-price {
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #595959;
+}
+
+.product-price-outer .discount-price {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'DM Sans';
+    color: #0C0A06;
+    transition: all .3s ease;
+}
+
+.product-item-wrap:hover .product-action {
+    visibility: visible;
+    opacity: 1;
+}
+
+.product-item-wrap:hover .product-discount-persent {
+    background: #ff7e16;
+}
+
+.product-item-wrap:hover .product-info-outer .product-name {
+    color: #ff7e16;
+}
+
+.product-item-wrap:hover .product-price-outer .discount-price {
+    color: #ff7e16;
+}
+/*Shop page css End*/

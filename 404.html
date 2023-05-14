@@ -27,6 +27,129 @@
 </head>
 <body>
 
+<!-- Sign Up Modal -->
+<div class="modal fade" id="signUpMOdal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+		    <div class="modal-body">		    	
+		        <div class="modal-form-wrapper">
+		        	<button type="button" class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close">
+		        		<i class="fas fa-times"></i>
+		        	</button>
+		        	<h1 class="form-title">
+		        		Please Sign Up 
+		        	</h1>
+		        	<form action="" method="" class="sign-up-form form-group">
+		        		<h6 class="form-item-top-label">
+		        			Email*
+		        		</h6>
+		        		<div class="input-field-wrapper">
+		                    <i class="far fa-envelope"></i>
+		                    <input type="email" class="form-control " name="email" placeholder="info@example.com">
+		                </div>
+		                <h6 class="form-item-top-label">
+		        			Password*
+		        		</h6>
+		        		<div class="input-field-wrapper">
+		                    <i class="fas fa-unlock-alt"></i>
+		                    <input type="password" class="form-control " name="password" placeholder="**** ****">
+		                </div>
+		                <button type="submit" class="contact-form-btn">
+		                	Sign Up Now
+		                </button>
+		        	</form>
+		        	<span class="login-link-text">
+		        		Already have an account?
+		        	</span>
+		        	<a href="#loginMOdal" data-bs-toggle="modal" class="login-link-inner">
+		        		Log in  
+		        	</a>
+		        	<span class="form-bottom-separator">
+	        			OR
+	        		</span>
+		        	<div class="form-bottom-outer">		        		
+		        		<a href="#" class="sign-up-other-link">
+		        			<img src="assets/images/google.png" alt="Google">
+		        			Sign Up with Google
+		        		</a>
+		        		<a href="#" class="sign-up-other-link">
+		        			<img src="assets/images/microsoft.png" alt="Google">
+		        			Sign Up with Microsoft
+		        		</a>
+		        	</div>
+		        </div>
+		    </div>
+	    </div>
+	</div>
+</div>
+<!-- Sign Up Modal -->
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginMOdal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+	<div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+		    <div class="modal-body">		    	
+		        <div class="modal-form-wrapper">
+		        	<button type="button" class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close">
+		        		<i class="fas fa-times"></i>
+		        	</button>
+		        	<h1 class="form-title">
+		        		Log In Now 
+		        	</h1>
+		        	<form action="" method="" class="sign-up-form form-group">
+		        		<h6 class="form-item-top-label">
+		        			Email*
+		        		</h6>
+		        		<div class="input-field-wrapper">
+		                    <i class="far fa-envelope"></i>
+		                    <input type="email" class="form-control " name="email" placeholder="info@example.com">
+		                </div>
+		                <h6 class="form-item-top-label">
+		        			Password*
+		        		</h6>
+		        		<div class="input-field-wrapper">
+		                    <i class="fas fa-unlock-alt"></i>
+		                    <input type="password" class="form-control " name="password" placeholder="**** ****">
+		                </div>
+		                <div class="forgot-remember-outer">
+		                	 <div class="remember-outer">
+		                	 	<input type="checkbox" name="remember" id="remember">
+		                	 	<label for="remember">Remember Me</label>
+		                	 </div>
+		                	 <a href="#" class="forgot-password-link">
+		                	 	Forget Password?
+		                	 </a>
+		                </div>
+		                <button type="submit" class="contact-form-btn">
+		                	Log In Now
+		                </button>
+		        	</form>
+		        	<span class="login-link-text">
+		        		Don’t have an account?
+		        	</span>
+		        	<a href="#signUpMOdal" data-bs-toggle="modal" class="login-link-inner">
+		        		Sign Up  
+		        	</a>
+		        	<span class="form-bottom-separator">
+	        			OR
+	        		</span>
+		        	<div class="form-bottom-outer">		        		
+		        		<a href="#" class="sign-up-other-link">
+		        			<img src="assets/images/google.png" alt="Google">
+		        			Sign Up with Google
+		        		</a>
+		        		<a href="#" class="sign-up-other-link">
+		        			<img src="assets/images/microsoft.png" alt="Google">
+		        			Sign Up with Microsoft
+		        		</a>
+		        	</div>
+		        </div>
+		    </div>
+	    </div>
+	</div>
+ </div>
+<!-- Login Modal -->
+
 <header class="header-section">
 	<div class="header-top-wrapper">
 		<div class="container">
@@ -142,24 +265,69 @@
 				    	</a>
 				    	<ul class="nav-item-submenu">
 						    <li class="submenu-item">
-						        <a href="#" class="submenu-item-link">
-						            About Company Profile
+						        <a href="b2b-home.html" class="submenu-item-link">
+						            B2B Leads
 						        </a>
 						    </li>
 						    <li class="submenu-item">
-						        <a href="#" class="submenu-item-link">
-						            Meet Our Team
+						        <a href="ecommerce-home.html" class="submenu-item-link">
+						            Ecommerce Leads
 						        </a>
 						    </li>
 						    <li class="submenu-item">
-						        <a href="#" class="submenu-item-link"> 
-						            Services
+						        <a href="amazon-home.html" class="submenu-item-link"> 
+						            Amazon Seller
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="industry-leads.html" class="submenu-item-link"> 
+						            Industry Leads
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="technology-leads.html" class="submenu-item-link"> 
+						            Technology Leads
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="recruitment.html" class="submenu-item-link"> 
+						            Recruitments
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="sales.html" class="submenu-item-link"> 
+						            Sales
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="marketing.html" class="submenu-item-link"> 
+						            Marketings
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="enrichment.html" class="submenu-item-link"> 
+						            Data Enrichment
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="blog.html" class="submenu-item-link"> 
+						            Blog Standard
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="case-study.html" class="submenu-item-link"> 
+						            Case Study Details
+						        </a>
+						    </li>
+						    <li class="submenu-item">
+						        <a href="404.html" class="submenu-item-link"> 
+						            404
 						        </a>
 						    </li>
 						</ul>
 				    </li>
 				    <li class="nav-list-item">
-				    	<a href="#" class="nav-item-link">
+				    	<a href="contact.html" class="nav-item-link">
 				    		Contact Us 
 				    	</a>
 				    </li>
@@ -179,18 +347,13 @@
 					</div>
 					<ul class="nav-item-submenu">
 					    <li class="submenu-item">
-					        <a href="#" class="submenu-item-link">
-					            About Company Profile
+					        <a data-bs-toggle="modal" href="#signUpMOdal" class="submenu-item-link">
+					            Sign Up
 					        </a>
 					    </li>
 					    <li class="submenu-item">
-					        <a href="#" class="submenu-item-link">
-					            Meet Our Team
-					        </a>
-					    </li>
-					    <li class="submenu-item">
-					        <a href="#" class="submenu-item-link"> 
-					            Services
+					        <a data-bs-toggle="modal" href="#loginMOdal" class="submenu-item-link">
+					            Log In
 					        </a>
 					    </li>
 					</ul>					
@@ -311,7 +474,7 @@
 							</a>
 						</li>
 						<li class="footer-service-list-item">
-							<a href="#" class="footer-service-list-link">
+							<a href="blog.html" class="footer-service-list-link">
 								Blog & News
 							</a>
 						</li>
