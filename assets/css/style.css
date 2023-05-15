@@ -2933,25 +2933,199 @@ body {
 }
 /*Shop page css End*/
 
+/*Product Details page css start*/
+.product-details-section {
+    padding: 50px 0;
+}
+
+.product-details-left {
+    background: #F8F8F8;
+    position: relative;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 5px;
+}
+
+.product-details-image {
+    width: 100%;
+    max-width: 170px;
+    margin-bottom: 15px;
+}
+
+.product-details-discount-persent {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #0C0A06;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+}
+
+.product-details-left .number-of-leads {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    display: block;
+}
+
+.product-details-right {}
+
+.product-details-right .product-name {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #0C0A06;
+}
+
+.product-details-item-ratting {
+    display: inline-flex;
+    padding-left: 0;
+}
+
+.product-details-item-ratting li {
+    margin-right: 10px;
+}
+
+.product-details-item-ratting li i {
+    font-size: 14px;
+    color: #FF7E16;
+}
+
+.product-details-right .reviews-count {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #595959;
+}
+
+.product-details-price-outer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-details-price-outer .main-price {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #595959;
+    margin-right: 10px;
+}
+
+.product-details-price-outer .discount-price {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    margin-right: 10px;
+}
+
+.product-details-price-outer .discount-price-persect {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #FF7E16;
+}
+
+.product-count .left form {
+    display: flex;
+    background: #F8F8F8;
+    border-radius: 25px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.product-details-right .product-count {
+    display: flex;
+    align-items: end;
+}
+
+.product-details-right .left label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.product-count .left form input.qty {
+    width: 70px;
+    border: none;
+    text-align: center;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #000;
+}
+
+.product-details-right .product-count .add-cart-btn {
+    border: 1px solid #0C0A06;
+    background: transparent;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #0C0A06;
+    border-radius: 30px;
+}
+
+.product-details-right .product-count .add-cart-btn:hover {
+    background: #ff7e16;
+    border: 1px solid #ff7e16;
+    color: #fff;
+}
+
+.product-details-right .buy-now-btn {
+    display: inline-block;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 0;
+    text-align: center;
+    background: #FF7E16;
+    border: 1px solid #FF7E16;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    color: #fff;
+    border-radius: 5px;
+}
+
+.product-details-right .buy-now-btn:hover {
+    background: transparent;
+    color: #FF7E16;
+}
+/*Product Details page css End*/
+
 
 .qtyplus {
     width: 34px;
     height: 34px;
-    background: #212529;
+    background: transparent;
     text-align: center;
     font-size: 19px;
-    line-height: 36px;
-    color: #fff;
+    line-height: 30px;
+    color: #FF7E16;
     cursor: pointer;
+    border: 1px solid rgba(255, 126, 22, 0.5);
+    border-radius: 50%;
 }
 
 .qtyminus {
     width: 34px;
     height: 34px;
-    background: #212529;
+    background: #fff;
+    border: 1px solid rgba(255, 126, 22, 0.5);
     text-align: center;
     font-size: 19px;
-    line-height: 36px;
-    color: #fff;
+    line-height: 30px;
+    color: #FF7E16;
     cursor: pointer;
+    border-radius: 50%;
 }
