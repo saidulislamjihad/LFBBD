@@ -93,3 +93,22 @@ $('.case-study-items-wrap').owlCarousel({
         }
     }
 });
+
+//Product Count
+ $(".qtyminus").on("click",function(){
+    var now = $(".qty").val();
+    if ($.isNumeric(now)){
+        if (parseInt(now) -1 > 0)
+        { now--;}
+        $(".qty").val(now);
+    }
+})            
+$(".qtyplus").on("click",function(){
+    var now = $(".qty").val();
+    if ($.isNumeric(now)){
+        if(parseInt(now) < 10 ){
+            $(".qty").val(parseInt(now)+1);
+        }
+        
+    }
+});
