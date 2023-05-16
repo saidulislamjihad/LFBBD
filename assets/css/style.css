@@ -3258,6 +3258,154 @@ input.star:checked~label.star:before {
 }
 /*Product Details page css End*/
 
+/*Billing page css start*/
+section.billing-details-section {
+    padding: 50px 0;
+}
+
+.billing-details-top-info {
+    background: #F8F8F8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.billing-details-top-info .text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    margin-bottom: 0;
+}
+
+.billing-details-form-outer {
+    background: #F8F8F8;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.billing-details-title {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    margin-bottom: 20px;
+}
+
+.billing-details-form .input-field-wrapper label {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.billing-details-form .input-field-wrapper input,
+.billing-details-form .input-field-wrapper select {
+    background: #FFFFFF;
+    height: 45px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.billing-details-form .input-field-wrapper input:focus,
+ .billing-details-form .input-field-wrapper select:focus,
+ .billing-details-form .input-field-wrapper textarea:focus {
+    box-shadow: none;
+    border: 1px solid #FF7E16;
+}
+
+.billing-details-form .input-field-wrapper textarea {
+    border: 1px solid #ced4da;
+    padding-left: 10px;
+}
+
+.cart-product-item-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 21px;
+}
+
+.cart-product-item-left {
+    margin-right: 10px;
+}
+
+.cart-product-item-left img {
+    width: 130px;
+}
+
+.cart-product-item-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cart-product-item-right .left .cart-product-name {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+}
+
+.cart-product-item-right .left .cart-product-price {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #0C0A06;
+    margin-bottom: 0;
+}
+
+.cart-product-item-right .right {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #0C0A06;
+}
+
+.sub-total-wrap .sub-total-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.sub-total-item.grand-total {
+    border-top: 1px solid #EEEEEE;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+
+.payment-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+}
+
+.payment-items-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-items-wrap .payment-item-outer {
+    display: flex;
+    align-items: center;
+}
+
+.payment-items-wrap .payment-item-outer input[type="radio"] {
+    margin-right: 5px;
+}
+
+.payment-items-wrap .payment-item-outer img {
+    width: 50px;
+}
+/*Billing page css End*/
+
+
 
 .qtyplus {
     width: 34px;

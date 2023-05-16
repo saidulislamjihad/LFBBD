@@ -473,7 +473,7 @@
 										Additional Information
 									</h4>
 								</div>								
-								<div class="col-md-6">
+								<div class="col-md-12">
 									<div class="input-field-wrapper">
 										<label for="note">Order Notes :</label>
 										<textarea name="note" class="form-control" rows="4" cols="50" placeholder="About your orders..."></textarea>
@@ -506,25 +506,43 @@
 								</div>
 							</div>
 						</div>
-						<div class="sub-total-wrap">
-							<div class="sub-total-item">
-								<strong>Sub Total</strong>
-								<strong>$1500.00</strong>
+						<form action="" method="" class="total-payment-form">
+							<div class="sub-total-wrap">
+								<div class="sub-total-item">
+									<strong>Sub Total</strong>
+									<strong>$1500.00</strong>
+								</div>
+								<div class="sub-total-item">
+									<strong>Sub Total</strong>
+									<strong>$1500.00</strong>
+								</div>
+								<div class="sub-total-item grand-total">
+									<strong>Sub Total</strong>
+									<strong>$1500.00</strong>
+								</div>
 							</div>
-							<div class="sub-total-item">
-								<strong>Sub Total</strong>
-								<strong>$1500.00</strong>
-							</div>
-							<div class="sub-total-item grand-total">
-								<strong>Sub Total</strong>
-								<strong>$1500.00</strong>
-							</div>
-						</div>
-						<div class="payment-items-wrap">
 							<h6 class="payment-item-title">
 								Select Payment Method
 							</h6>
-						</div>
+							<div class="payment-items-wrap">
+								<div class="payment-item-outer">
+									<input type="radio" name="payment" value="visa">
+									<img src="assets/images/payment1.png" alt="image">
+								</div>
+								<div class="payment-item-outer">
+									<input type="radio" name="payment" value="wise">
+									<img src="assets/images/payment2.png" alt="image">
+								</div>
+								<div class="payment-item-outer">
+									<input type="radio" name="payment" value="strip">
+									<img src="assets/images/payment3.png" alt="image">
+								</div>
+								<div class="payment-item-outer">
+									<input type="radio" name="payment" value="paypal">
+									<img src="assets/images/payment4.png" alt="image">
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
