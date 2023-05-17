@@ -1,0 +1,21 @@
+@media screen and (max-width: 1200px){
+	.home-sec-left .title {
+	    font-size: 50px;
+	}
+	.home-sec-left .sub-title {
+	    font-size: 18px;
+	}
+	.home-partner-image-outer .title {
+	    font-size: 18px;
+	}
+	.section-title-wrap .title {
+	    font-size: 35px;
+	}
+	.section-title-wrap .text {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.about-award-wrap .owl-nav .owl-next {
+	    right: 0;
+	}
+}

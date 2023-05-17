@@ -11,7 +11,7 @@ $('.about-award-wrap').owlCarousel({
             nav:true
         },
         600:{
-            items:2,
+            items:3,
             nav:true
         },
         1000:{
