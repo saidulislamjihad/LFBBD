@@ -3205,6 +3205,33 @@ input.star:checked~label.star:before {
     color: #FF7E16;
     transition: all .25s;
 }
+
+.qtyplus {
+    width: 34px;
+    height: 34px;
+    background: transparent;
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FF7E16;
+    cursor: pointer;
+    border: 1px solid rgba(255, 126, 22, 0.5);
+    border-radius: 50%;
+}
+
+.qtyminus {
+    width: 34px;
+    height: 34px;
+    background: #fff;
+    border: 1px solid rgba(255, 126, 22, 0.5);
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FF7E16;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
 .review-form-item {
     margin-bottom: 20px;
 }
@@ -3259,7 +3286,7 @@ input.star:checked~label.star:before {
 /*Product Details page css End*/
 
 /*Billing page css start*/
-section.billing-details-section {
+.billing-details-section {
     padding: 50px 0;
 }
 
@@ -3403,32 +3430,293 @@ section.billing-details-section {
 .payment-items-wrap .payment-item-outer img {
     width: 50px;
 }
+
+.condition-ac-wrap {
+    margin: 20px 0;
+}
+
+.condition-ac-wrap label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #5E5E5E;
+}
+
+.order-place-btn-inner {
+    width: 100%;
+    border: 1px solid #FF7E16;
+    background: #FF7E16;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #fff;
+    border-radius: 5px;}
+
+.order-place-btn-inner:hover {
+    background: transparent;
+    color: #FF7E16;
+}
 /*Billing page css End*/
 
+/*Pricing page css start*/
+section.pricing-section {
+    padding: 50px 0;
+}
 
-
-.qtyplus {
-    width: 34px;
-    height: 34px;
-    background: transparent;
+.pricing-section-title-wrap {
     text-align: center;
-    font-size: 19px;
-    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.pricing-section-title-wrap .title {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #000;
+}
+
+.pricing-section-title-wrap .swap-item-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-section-title-wrap .swap-item-outer span {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #000;
+}
+
+.pricing-section-title-wrap .swap-item-outer span small {
     color: #FF7E16;
+}
+
+.pricing-section-title-wrap .swap-item-outer .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 22px;
+    margin: 0 15px;
+}
+
+.pricing-section-title-wrap .swap-item-outer .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.pricing-section-title-wrap .swap-item-outer .switch .slider {
+    position: absolute;
     cursor: pointer;
-    border: 1px solid rgba(255, 126, 22, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fe9743;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 30px;
+}
+
+.pricing-section-title-wrap .swap-item-outer .switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 10px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
     border-radius: 50%;
 }
 
-.qtyminus {
-    width: 34px;
-    height: 34px;
-    background: #fff;
-    border: 1px solid rgba(255, 126, 22, 0.5);
-    text-align: center;
-    font-size: 19px;
-    line-height: 30px;
-    color: #FF7E16;
-    cursor: pointer;
+.pricing-section-title-wrap .swap-item-outer .switch input:checked + .slider {
+    background-color: #d77527;
+}
+
+.pricing-section-title-wrap .swap-item-outer .switch input:focus + .slider {
+    box-shadow: 0 0 1px #d77527;
+}
+
+.pricing-section-title-wrap .swap-item-outer .switch input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.pricing-item-wrapper {
+    background: #F8F8F8;
+    border-radius: 10px;
+    transition: all .3s ease;
+    margin-bottom: 30px;
+}
+
+.pricing-item-top {
+    background: #FF7E16;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px 30px 50px;
+    transition: all .3s ease;
+}
+
+.pricing-item-top img {
+    position: absolute;
+    width: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 50%;
 }
+
+.pricing-item-top-info {
+    border-left: 3px solid #fff;
+    padding-left: 10px;
+}
+
+.pricing-item-top-info .title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.pricing-item-top-info .sub-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #fff;
+}
+
+.pricing-item-bottom {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.pricing-info-list {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-info-list-item {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    color: #0C0A06;
+    margin-bottom: 12px;
+}
+
+.pricing-info-list-item i {
+    font-size: 15px;
+    color: #FF7E16;
+    margin-right: 3px;
+}
+
+.purchase-btn-outer {
+    text-align: center;
+}
+
+.purchase-btn-inner {
+    display: inline-block;
+    border: 1px solid #FF7E16;
+    border-radius: 5px;
+    padding: 12px 30px;
+    color: #FF7E16;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Kanit';
+}
+
+.pricing-item-wrapper:hover .pricing-item-top {
+    background: #0C0A06;
+    transition: all .3s ease;
+}
+
+.pricing-item-wrapper:hover .purchase-btn-inner {
+    background: #0C0A06;
+    color: #fff;
+    border: 1px solid #0C0A06;
+}
+/*Pricing page css End*/
+
+/*Review page css start*/
+.reviews-section {
+    padding: 50px 0;
+}
+
+.testimonial-item-outer.reviews {
+    border: 1px solid #EEEEEE;
+    transition: all .3s ease;
+    margin-bottom: 20px;
+}
+
+.testimonial-item-outer.reviews:hover {
+    border: 1px solid rgba(255, 126, 22, 0.8);
+    background: #F8F8F8;
+}
+/*Review page css End*/
+
+/*Privacy policy page css start*/
+.privacy-policy-section {
+    padding: 50px 0;
+}
+
+.privacy-policy-main-title {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Kanit';
+    color: #0C0A06;
+    margin-bottom: 10px;
+}
+
+.privacy-policy-info-wrap .text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans';
+    line-height: 30px;
+    color: #595959;
+}
+
+.privacy-policy-sub-title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Kanit';
+    color: #0C0A06;
+}
+
+.third-party-service-list {
+    padding-left: 0;
+}
+
+.third-party-service-list li {
+    position: relative;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Kanit';
+    color: #595959;
+    margin-bottom: 10px;
+}
+
+.third-party-service-list li span {
+    width: 23px;
+    height: 1px;
+    background: #595995;
+}
+
+.third-party-service-list li:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 1px;
+    background: #595995;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+/*Privacy policy page css End*/
